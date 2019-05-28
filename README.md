@@ -1,7 +1,6 @@
 ## Installation
-
-    $ git clone https://github.com/jewei/Frognation.git
-    $ cd Frognation
+    git remote add origin https://github.com/ozombo/frogpond.git
+    $ cd frogpond
     $ composer install
 
 #### Import the DB
@@ -16,3 +15,7 @@ Create database called `pond`.
 
     $ composer run-script phpunit
     $ composer run-script phpcs
+
+##
+
+    Edit config/.env data
